@@ -1,0 +1,45 @@
+# ============================================
+# FILE: environment.yml
+# ============================================
+
+name: towuti-phage
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.11
+
+  # SRA download
+  - sra-tools
+
+  # QC / trimming
+  - fastp
+  - fastqc
+  - multiqc
+
+  # FASTA/FASTQ utilities
+  - seqkit
+  - pigz
+
+  # Metagenome assembly
+  - megahit
+
+  # Mapping utilities
+  - minimap2
+  - samtools
+
+  # General utilities
+  - wget
+  - curl
+  - git
+
+  # Python ecosystem
+  - pandas
+  - biopython
+  - matplotlib
+  - notebook
+  - jupyterlab
+  - ipykernel

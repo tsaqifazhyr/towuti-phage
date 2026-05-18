@@ -1,0 +1,29 @@
+# raw sequencing data
+*.fastq
+*.fq
+*.fastq.gz
+
+# SRA files
+SRR*/
+
+# assembly output
+megahit_out/
+*.fa
+*.fasta
+
+# compressed outputs
+*.gz
+
+# QC reports
+*.html
+*.json
+
+# logs
+logs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# environment
+*.conda
+*.env
